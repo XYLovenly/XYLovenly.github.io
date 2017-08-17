@@ -1,0 +1,274 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei UI","Microsoft YaHei" ,sans-serif;
+    color: #666;
+}
+.tab1 img,
+.tab2 img,
+.tab3 img,
+.tab4 img {
+    cursor: pointer;
+    transition: all 0.6s;
+    box-shadow: 2px 2px 3px #ccc;
+}
+.tab1 img:hover,
+.tab2 img:hover,
+.tab3 img:hover,
+.tab4 img:hover{
+    transform: scale(1.2);
+}
+.tab1 img:hover{
+    margin: 0 15px 0 0;
+}
+
+
+#myCarousel{
+    margin: 50px 0 0;
+}
+#navbar-collapse ul{
+    margin-top: 0;
+}
+.carousel-inner img{
+    margin: 0 auto;
+}
+.tab-h2{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #0059b2;
+}
+.tab-p{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #999;
+    margin: 20px 0 40px 0;
+}
+.tab1{
+    margin: 30px 0;
+    color: #666;
+}
+.tab1 .text-muted{
+    color: #999;
+    text-decoration: line-through;
+}
+.tab1 .media-heading{
+    margin: 5px 0 20px 0;
+}
+.tab1 .col{
+    padding: 20px;
+}
+.tab1 .col p{
+    line-height: 1.6;
+}
+#footer{
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    background-color: #666;
+    border-top: 1px solid #ccc;
+}
+#footer a{
+    color: #eee;
+}
+.tab2{
+    padding: 60px 20px;
+    background-color: #eee;
+    text-align: center;
+}
+.tab3{
+    padding: 60px 0;
+    text-align: center;
+}
+.tab3 img{
+    width: 65%;
+    height: 65%;
+}
+.text h3{
+    font-size: 20px;
+}
+.text p{
+    font-size: 14px;
+}
+.tab4{
+    padding: 60px 20px;
+    background-color: #eee;
+    text-align: center;
+}
+
+/*第二页*/
+.jumbotron{
+    padding: 60px 0;
+    margin: 50px 0 0 0;
+    color: #ccc;
+    background: #000;
+}
+.jumbotron h1{
+    padding: 0 0 0 20px;
+    font-size: 26px;
+}
+.jumbotron h4{
+    padding: 0 0 0 20px;
+    font-size: 15px;
+}
+#information{
+    padding: 40px 0;
+    background-color: #eee;
+}
+.info-content{
+    margin: 0 0 20px 0;
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #ccc;
+}
+.info-content img{
+    margin: 12px 0;
+}
+.info-content h4{
+    padding: 2px 0 0 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.info-content p{
+    line-height: 1.6;
+}
+.info-right{
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #ccc;
+}
+.info-right blockquote{
+    margin: 0;
+    padding: 0;
+}
+.info-right h2{
+    padding: 5px;
+    font-size: 20px;
+    color: #333;
+}
+.info-right h4{
+    padding: 2px 0 0 0;
+    color: #333;
+    font-size: 16px;
+}
+
+/*案例*/
+#case{
+    padding: 40px 0;
+    background-color: #eee;
+    text-align: center;
+}
+#case h4{
+    color: #666;
+}
+#case p{
+    color: #666;
+    line-height: 1.6;
+}
+
+/**/
+#about{
+    padding: 40px 15px;
+    background-color: #eee;
+}
+#about a{
+    color: #0059b2;
+}
+#about .about{
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #ccc;
+}
+#about h3{
+    padding: 20px 0;
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+}
+#about p{
+    line-height: 2;
+    font-size: 13px;
+}
+/*没有小于768px,bootstrap以移动端为优先设计*/
+@media (min-width:768px) {
+    .tab-h2{
+        font-size: 26px;
+    }
+    .tab-p{
+        font-size: 16px;
+    }
+    .text h3{
+        font-size: 22px;
+    }
+    .text p{
+        font-size: 15px;
+    }
+    .tab2-text{
+        float: left;
+    }
+    .tab2-img{
+        float: right;
+    }
+    .jumbotron h1{
+        font-size: 30px;
+    }
+    .jumbotron h4{
+        font-size: 16px;
+    }
+    .info-content h4{
+        font-size: 16px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    #about h3{
+        font-size: 19px;
+    }
+    #about p{
+        font-size: 14px;
+    }
+}
+@media (min-width:992px) {
+    .tab-h2{
+        font-size: 28px;
+    }
+    .tab-p{
+        font-size: 17px;
+    }
+    .text h3{
+        font-size: 24px;
+    }
+    .text p{
+        font-size: 16px;
+    }
+    .info-content h4{
+        font-size: 18px;
+    }
+    #about h3{
+        font-size: 20px;
+    }
+    #about p{
+        font-size: 15px;
+    }
+}
+@media (min-width:1200px) {
+    .tab-h2{
+        font-size: 30px;
+    }
+    .tab-p{
+        font-size: 18px;
+    }
+    .text h3{
+        font-size: 26px;
+    }
+    .text p{
+        font-size: 18px;
+    }
+    .info-content h4{
+        font-size: 20px;
+    }
+    #about h3{
+        font-size: 22px;
+    }
+    #about p{
+        font-size: 16px;
+    }
+}
